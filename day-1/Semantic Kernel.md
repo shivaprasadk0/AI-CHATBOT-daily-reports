@@ -1,16 +1,5 @@
-Here is your complete **`README.md` file content** for **Microsoft Semantic Kernel**, including:
 
-* Overview
-* Tech Stack
-* Advantages & Disadvantages
-* Architecture (with images)
-* Control Flow (with images)
-* Enterprise perspective
-* Structured and professional formatting
 
-You can copy this directly into a `.md` file.
-
----
 
 # 🧠 Semantic Kernel
 
