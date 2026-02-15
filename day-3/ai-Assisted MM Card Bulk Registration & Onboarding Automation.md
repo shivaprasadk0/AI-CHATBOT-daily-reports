@@ -89,18 +89,6 @@ Human effort is focused **only on exceptions**, not routine work.
 
 ## 3. SYSTEM ARCHITECTURE (TEXT EXPLANATION)
 
-+-------------------+        +-------------------+        +-------------------+
-|   Frontend (UI)   | -----> |   Backend APIs    | -----> |   MM Card System  |
-| Upload Excel,     |        | Validation,       |        | Registration &    |
-| Review Exceptions |        | Processing        |        | Activation        |
-+-------------------+        +-------------------+        +-------------------+
-          |                          |
-          v                          v
-+-------------------+        +-------------------+
-|   AI Engine       |        |   Database        |
-| Duplicate check,  |        | Records, Logs,    |
-| Anomaly detection |        | Audit Trails      |
-+-------------------+        +-------------------+
 
 ### Architecture Layers
 
@@ -144,24 +132,6 @@ Human effort is focused **only on exceptions**, not routine work.
 ---
 
 ## 4. DETAILED WORKFLOW
-[Excel Upload] 
-      |
-      v
-[Schema Validation] --> [Invalid Format → Reject & Notify]
-      |
-      v
-[AI Validation Layer]
-   |        |        |
-   |        |        |
-   v        v        v
-[Duplicate Check] [Anomaly Detection] [Missing Fields]
-   |        |        |
-   v        v        v
-[Clean Records] ------------------> [Auto Registration]
-[Exception Records] --------------> [Flagged for Review]
-      |
-      v
-[Reports & Audit Logs] --> [Notifications to Staff]
 
 
 1. User downloads an approved Excel template
@@ -380,6 +350,106 @@ A **small, skilled 4-member team** can deliver this solution in **12 weeks**, wi
 
 This is a **practical, scalable, and enterprise-ready automation strategy**.
 ```
+
+---
+---
+
+## 17. RECOMMENDED GITHUB REPOSITORIES (PRACTICAL & PRODUCTION-GRADE)
+
+The following repositories represent **real-world, production-grade building blocks**
+that align closely with this MM Card bulk onboarding architecture.
+
+These are **not demo projects** and are widely used in enterprise systems.
+
+---
+
+###17.1 Bulk Processing & Background Jobs
+
+- **Celery**  
+  https://github.com/celery/celery  
+  *Industry-standard async job processing for large Excel uploads*
+
+- **RabbitMQ**  
+  https://github.com/rabbitmq/rabbitmq-server  
+  *Reliable message broker for bulk workloads*
+
+---
+
+### 17.2 API & Backend Architecture
+
+- **FastAPI**  
+  https://github.com/tiangolo/fastapi  
+  *High-performance APIs for upload, validation, and orchestration*
+
+- **NestJS**  
+  https://github.com/nestjs/nest  
+  *Enterprise-grade Node.js backend structure*
+
+---
+
+### 17.3 Excel & Bulk Data Handling
+
+- **Pandas**  
+  https://github.com/pandas-dev/pandas  
+  *Core engine for Excel parsing and bulk transformations*
+
+- **OpenPyXL**  
+  https://github.com/ericgazoni/openpyxl  
+  *Stable Excel file reader/writer*
+
+---
+
+### 17.4 Data Validation & Quality
+
+- **Great Expectations**  
+  https://github.com/great-expectations/great_expectations  
+  *Enterprise data validation and expectation framework*
+
+---
+
+### 17.5 AI – Duplicate Detection & Similarity Matching
+
+- **Record Linkage**  
+  https://github.com/J535D165/recordlinkage  
+  *Purpose-built for duplicate customer detection and confidence scoring*
+
+- **FuzzyWuzzy**  
+  https://github.com/seatgeek/fuzzywuzzy  
+  *Name and address similarity matching*
+
+---
+
+### 17.6 Audit Logging & Compliance
+
+- **Django Audit Log**  
+  https://github.com/jazzband/django-auditlog  
+  *Tracks who changed what and when — critical for audits*
+
+---
+
+### 17.7 Frontend & UI Components
+
+- **Material UI**  
+  https://github.com/mui/material-ui  
+  *Enterprise-ready React UI components*
+
+---
+
+### 17.8 DevOps & Deployment
+
+- **Docker Compose Examples**  
+  https://github.com/docker/awesome-compose  
+  *Production-ready containerized deployments*
+
+---
+
+### Why These Repositories Matter
+
+- Proven at scale
+- Actively maintained
+- Explainable and auditable
+- Align with banking & financial workflows
+- Easy to integrate into your architecture
 
 ---
 
