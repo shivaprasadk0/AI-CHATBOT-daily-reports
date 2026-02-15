@@ -1,11 +1,5 @@
-Below is a **single, clean, well-structured Markdown (.md) file** with **neat explanations**, **no diagrams**, **no overflow**, and **clear enterprise language**.
-Everything is explained **briefly but completely**, suitable for **proposal, review, or documentation**.
-
-You can **copy–paste this directly as one `.md` file**.
 
 ---
-
-```markdown
 # AI-Assisted MM Card Bulk Registration & Onboarding Automation
 
 ---
