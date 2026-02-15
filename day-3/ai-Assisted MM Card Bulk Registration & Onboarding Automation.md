@@ -351,19 +351,9 @@ A **small, skilled 4-member team** can deliver this solution in **12 weeks**, wi
 This is a **practical, scalable, and enterprise-ready automation strategy**.
 ```
 
----
----
+##git hub repos
 
-## 17. RECOMMENDED GITHUB REPOSITORIES (PRACTICAL & PRODUCTION-GRADE)
-
-The following repositories represent **real-world, production-grade building blocks**
-that align closely with this MM Card bulk onboarding architecture.
-
-These are **not demo projects** and are widely used in enterprise systems.
-
----
-
-###17.1 Bulk Processing & Background Jobs
+17.1 Bulk Processing & Background Jobs
 
 - **Celery**  
   https://github.com/celery/celery  
@@ -375,7 +365,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.2 API & Backend Architecture
+## 17.2 API & Backend Architecture
 
 - **FastAPI**  
   https://github.com/tiangolo/fastapi  
@@ -387,7 +377,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.3 Excel & Bulk Data Handling
+## 17.3 Excel & Bulk Data Handling
 
 - **Pandas**  
   https://github.com/pandas-dev/pandas  
@@ -399,7 +389,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.4 Data Validation & Quality
+## 17.4 Data Validation & Quality
 
 - **Great Expectations**  
   https://github.com/great-expectations/great_expectations  
@@ -407,7 +397,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.5 AI – Duplicate Detection & Similarity Matching
+## 17.5 AI – Duplicate Detection & Similarity Matching
 
 - **Record Linkage**  
   https://github.com/J535D165/recordlinkage  
@@ -419,7 +409,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.6 Audit Logging & Compliance
+## 17.6 Audit Logging & Compliance
 
 - **Django Audit Log**  
   https://github.com/jazzband/django-auditlog  
@@ -427,7 +417,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.7 Frontend & UI Components
+## 17.7 Frontend & UI Components
 
 - **Material UI**  
   https://github.com/mui/material-ui  
@@ -435,7 +425,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### 17.8 DevOps & Deployment
+## 17.8 DevOps & Deployment
 
 - **Docker Compose Examples**  
   https://github.com/docker/awesome-compose  
@@ -443,7 +433,7 @@ These are **not demo projects** and are widely used in enterprise systems.
 
 ---
 
-### Why These Repositories Matter
+## Why These Repositories Matter
 
 - Proven at scale
 - Actively maintained
